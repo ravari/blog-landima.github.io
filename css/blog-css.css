@@ -1,0 +1,240 @@
+*{padding:0px; margin:0px;}
+.text-bold{
+    font-weight: bold;
+}
+.test{
+background-color:#2380d7;
+height:700px;
+
+}
+.test2{
+position:relative;
+margin-top:-10%;
+top:-20%;
+}
+
+.slider-shadow{
+-webkit-box-shadow: 0px 14px 24px -8px rgba(158,146,158,1);
+-moz-box-shadow: 0px 14px 24px -8px rgba(158,146,158,1);
+box-shadow: 0px 14px 24px -8px rgba(158,146,158,1);
+position:relative;
+
+
+}
+.head-slider-title-div {
+border-bottom: solid #3486d5 7px;
+font-family: IRANSans;
+color: #3486d5;
+font-size: 20px;
+}
+.head-slider-title {
+font-size: 22px;
+}
+.head-slider-title-date {
+font-family: IRANSans;
+font-size: 12px;
+}
+.head-slider-title-author {
+font-weight: bold;
+}
+.head-slider-text {
+font-size: 16px;
+}
+.head-slider-link {
+color: #f69679;
+font-size: 14px;
+}
+.slider-img {
+padding-left: 0px;
+padding-right: 0px;
+}
+.font-i {
+font-family: IRANSans;
+}
+.edameh-text{
+border-radius: 30px;
+color:#fff;
+position: relative;
+margin-top: -15%;
+top:-10%;
+
+
+}
+.btn-shadow{
+-webkit-box-shadow: 0px 0px 69px 0px rgba(52,134,213,1);
+-moz-box-shadow: 0px 0px 69px 0px rgba(52,134,213,1);
+box-shadow: 0px 0px 69px 0px rgba(52,134,213,1);
+}
+.color-landima{
+color: #3486d5;
+}
+.class-hr{
+position:relative;
+margin-top: 0%;
+}
+.a-nonline{
+line-height:auto;
+text-decoration: none;
+}
+.color-orange{
+background-color: #f69679;
+}
+.color-orange a{
+color: #fff;
+}
+.form-w{
+/*	background-image: url("images/form-bg.jpg"); background-size:;*/
+}
+.form-row{
+position: relative;
+margin-top: -80%;
+top:0%;
+}
+.social-new{
+font-size:30px;
+}
+.social-new a{
+color:#000;
+padding-left: 4%;
+padding-right: 5%;
+text-decoration: none;
+}/*
+@-moz-document url-prifix() {
+.edameh-text{
+border-radius: 30px;
+color:#fff;
+position: relative;
+margin-top: -15%;
+top:-10%;
+}
+
+}*/
+.input-sing-up
+{
+
+}
+.btn-sing-up{
+color: #fff;
+font-size: 20px;
+
+}
+/********************************    md     ***************************************/
+@media (min-width: 768px) {
+
+.cat-line-height-md{
+line-height: 1.2rem !important;
+}
+.cat-pic-margin-md{
+margin-top:1.8rem !important;
+}
+.edameh-text-md{
+    margin-top: -20% !important;
+    font-size: 12px !important;
+
+}
+.cat-title-size-md{
+    font-size: 19px !important;
+}
+.cat-show-size-md{
+    font-size: 12px!important;
+    text-align: right !important;
+    float: right !important;
+}
+    .head-slider-title-author{
+        font-size: 13px !important;
+    }
+    .head-slider-text{
+        font-size:14px !important;
+    }
+    .row-body{
+        padding-top: 25%;
+    }
+    .form-row{
+        position: relative;
+        margin-top: -60%;
+        top:0%;
+    }
+
+    .icon-form{
+        font-size: 300px;
+    }
+
+
+
+
+
+
+
+}
+
+/********  *************************************   lg    ********************************************************************************* *********/
+@media (min-width: 992px)  {
+    .cat-title-size-md{
+        font-size: 22px !important;
+    }
+    .cat-show-size-md{
+        font-size: 12px!important;
+        text-align: left !important;
+        float: left !important;
+    }
+    .head-slider-title-div {
+        border-bottom: solid #3486d5 7px;
+        font-family: IRANSans;
+        color: #3486d5;
+        font-size: 20px;
+    }
+    .head-slider-title {
+        font-size: 22px;
+    }
+    .head-slider-title-date {
+        font-family: IRANSans;
+        font-size: 12px;
+    }
+    .head-slider-title-author {
+        font-weight: bold;
+        font-size: 16px !important;
+    }
+    .head-slider-text {
+        font-size: 16px !important;
+    }
+    .head-slider-link {
+        color: #f69679;
+        font-size: 14px;
+    }
+    .body-text{
+        line-height: 2.3rem ;
+    }
+    .row-body{
+        padding-top: 19% !important;
+    }
+    .form-row{
+        position: relative;
+        margin-top: -50% !important;
+        top:0%;
+    }
+    .icon-form{
+        font-size: 400px;
+    }
+
+}
+/************************************************xlg*******************************************************************************************/
+
+@media (min-width: 1200px) {
+    .row-body{
+        padding-top: 12% !important;
+    }
+    .form-row{
+             margin-top: -55% !important;
+             -moz-margin-top: -65px !important;
+    }
+
+
+
+
+
+
+}
+/* *********************************************************single******************************************************************************** */
+.single-line-hight-cat{
+    line-height: 2.3rem !important;
+}

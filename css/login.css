@@ -1,0 +1,61 @@
+body {
+  background: url("../images/login-bg-l1.png") no-repeat center,
+    url("../images/login-bg-l2.png") no-repeat center;
+  background-color: #f1f1f1;
+  animation-name: bluewave;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login {
+  font-family: "IRANSans", sans-serif;
+  padding: 0;
+}
+#login h1 {
+  margin-top: -2%;
+}
+#login h1 a,
+.login h1 a {
+  background-image: url("../images/logo-landima.svg");
+  height: 70px;
+  background-size: auto 100px;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+.login form .input,
+.login input[type="text"] {
+  font-size: 14px !important;
+  padding: 5px !important;
+  margin: 2px 0 16px 0 !important;
+}
+#login input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+#login #nav a {
+  display: block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 0;
+  border-radius: 3px;
+}
+#login #backtoblog {
+  display: none;
+}
+#login .message.success {
+  border-color: limegreen;
+  background-color: #dfffdf;
+}
+@keyframes bluewave {
+  0%,
+  100% {
+    background-size: 100% 250px, 100% 200px;
+  }
+  50% {
+    background-size: 100% 200px, 100% 250px;
+  }
+}
